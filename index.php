@@ -3,8 +3,8 @@
 /*
 Plugin Name:  Link Checker
 Description:  Check status codes of links
-Plugin URI:   https://valet.io/
-Author:       Josh & Milos
+Plugin URI:   https://mmilosevic.com/
+Author:       Milos
 Version:      1.0
 Text Domain:  wpmilos
 Domain Path:  /languages
@@ -132,7 +132,7 @@ function run_this() {
 }
 
 add_shortcode('crazy2', 'run_this');
-
+//to do
 //array_diff $page_links - array from database and repat
 //$newArray = array_slice($page_links, 0, 5, true);
 //store results in db
